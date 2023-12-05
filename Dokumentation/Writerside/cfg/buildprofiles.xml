@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buildprofiles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd">
+
+    <variables>
+        <primary-color>deep-ocean</primary-color>
+    </variables>
+    <build-profile instance="hi">
+        <variables>
+            <noindex-content>true</noindex-content>
+        </variables>
+        <footer>
+            <copyright>Levin Bänninger 2023</copyright>
+            <social type="linkedin" href="https://www.linkedin.com/in/levinbaenninger/"></social>
+            <social type="email" href="mailto:l.baenninger@icloud.com"></social>
+            <link href="https://levinbaenninger.dev">Portfolio</link>
+            <link href="https://www.buhlergroup.com/">Employer</link>
+        </footer>
+    </build-profile>
+
+</buildprofiles>
