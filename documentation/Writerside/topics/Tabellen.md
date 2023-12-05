@@ -7,7 +7,7 @@ Tabellen kann man über den Reiter <ui-path>Erstellen | Tabelle</ui-path> erstel
 ![](datenblattansicht.png) { width="350" thumbnail="true" }
 
 - **Entwurfsansicht**: Hier kann man die einzelnen Attribute der Tabelle festlegen. Auch kann man den Datentyp bestimmen und für Fremdschlüssel
-  gibt es einen Wizard.
+  gibt es einen [Wizard](Relationen.md#relationen-in-tabellen).
 
 ![](entwurfsansicht.png) { width="350" thumbnail="true" }
 
