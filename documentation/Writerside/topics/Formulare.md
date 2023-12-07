@@ -34,4 +34,4 @@ Danach können wir wie beim Formularentwurf unser Formular noch weiter individue
 
 Ein fertiges Formular könnte in etwa so aussehen:
 
-![form_finished.png](form_finished.png) { width="350" thumbnail="true" }
+![form_edited.png](form_edited.png) { width="350" thumbnail="true" }

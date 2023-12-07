@@ -39,9 +39,9 @@ hat.
 
 ![](column.png) { width="350" thumbnail="true" }
 
-### Zelle
+### Feld
 
-Eine Zelle bzw. Feld ist eine einzelne Datenposition innerhalb einer Tabelle. Das heisst eine Zelle ist der Schnittpunkt von Datensatz und Attribut.
+Ein Feld ist eine einzelne Datenposition innerhalb einer Tabelle. Das heisst eine Zelle ist der Schnittpunkt von Datensatz und Attribut.
 
 ![](cell.png) { width="350" thumbnail="true" }
 
