@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rules SYSTEM "https://resources.jetbrains.com/writerside/1.0/redirection-rules.dtd">
+<rules>
+    <!-- format is as follows
+    <rule id="<unique id>">
+        <accepts>page.html</accepts>
+    </rule>
+    -->
+    <rule id="4409d2f8">
+        <description>Created after removal of "Logische Operatoren" from Datenbanken</description>
+        <accepts>Logische-Operatoren.html</accepts>
+    </rule>
+    <rule id="4cdc9d6e">
+        <description>Created after removal of "SQL Datenbank" from Datenbanken</description>
+        <accepts>SQL-Datenbank.html</accepts>
+    </rule>
+    <rule id="307bfd43">
+        <description>Created after removal of "Andere Datentypen" from Datenbanken</description>
+        <accepts>Andere-Datentypen.html</accepts>
+    </rule>
+</rules>
