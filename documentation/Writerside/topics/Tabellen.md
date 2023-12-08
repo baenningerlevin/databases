@@ -18,4 +18,4 @@ Gültigkeitsregeln, Obligatorien, etc. einstellen.
 
 > Tabellen haben immer folgendes Namensschema: `tbl_Name`
 
-{ style="warning" }
+{ style="note" }

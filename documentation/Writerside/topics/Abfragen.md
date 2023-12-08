@@ -7,7 +7,7 @@ per Drag-and-Drop auswählen kann.
 
 > Relationen werden automatisch übernommen
 
-{ style="note" }
+{ style="tip" }
 
 Unten kann man dann auswählen, welche Attribute man in der Abfrage einbeziehen möchte.
 
@@ -30,7 +30,7 @@ Diese Abfrage sieht dann wie folgt aus:
 
 > Tabellen haben immer folgendes Namensschema: `qry_Name`
 >
-{ style="warning"}
+{ style="note"}
 
 ## Abfragen bei Fremdschlüsseln einbinden
 

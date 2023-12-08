@@ -22,5 +22,7 @@
         <toc-element topic="Abfragen.md"/>
         <toc-element topic="Formulare.md"/>
     </toc-element>
+    <toc-element topic="SQL-Server-Express.md"/>
+    <toc-element topic="SQL-Syntax.md"/>
 
 </instance-profile>
