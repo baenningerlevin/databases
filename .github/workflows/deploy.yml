@@ -29,9 +29,6 @@ jobs:
         runs-on: ubuntu-latest
 
         steps:
-        - name: Install unzip
-          run: sudo apt-get install unzip
-        
         - name: Checkout repository
           uses: actions/checkout@v3
 
@@ -113,6 +110,8 @@ jobs:
             image: registry.jetbrains.team/p/writerside/builder/algolia-publisher:2.0.32-2
     
         steps:
+            - name: Install unzip
+              run: sudo apt-get install unzip
             - uses: actions/checkout@v3
             - uses: actions/download-artifact@v3
               with:
