@@ -4,6 +4,11 @@
 
     <variables>
         <primary-color>deep-ocean</primary-color>
+        <algolia-id>659S48WQW8</algolia-id>
+        <algolia-index>doc_database</algolia-index>
+        <algolia-api-key>7abb558282dcc9d76f7b4b8c6e62ff12</algolia-api-key>
+        <web-root>https://baenningerlevin.github.io/databases/</web-root>
+
     </variables>
     <build-profile instance="hi">
         <variables>
@@ -11,10 +16,9 @@
         </variables>
         <footer>
             <copyright>Levin Bänninger 2023</copyright>
-            <social type="linkedin" href="https://www.linkedin.com/in/levinbaenninger/"></social>
-            <social type="email" href="mailto:l.baenninger@icloud.com"></social>
-            <link href="https://levinbaenninger.dev">Portfolio</link>
-            <link href="https://www.buhlergroup.com/">Employer</link>
+            <social type="linkedin" href="https://www.linkedin.com/in/levinbaenninger/">LinkedIn</social>
+            <social type="email" href="mailto:l.baenninger@icloud.com">E-Mail</social>
+            <social type="blog" href="https://www.levinbaenninger.dev">Portfolio</social>
         </footer>
     </build-profile>
 

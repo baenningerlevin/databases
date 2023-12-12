@@ -24,37 +24,37 @@
 
         <!--    Add up to 2 topics that you want to promote. Use the "type" attribute to select an icon.    -->
         <spotlight>
-            <a href="Begriffe.md" summary="Hier lernst du die wichtigsten Begriffe in Datenbanken" type="library"/>
-            <a href="Arten-von-Daten.md" summary="Hier lernst du, welche Arten von Daten es gibt" type="data"/>
+            <a href="Grundlegendes.md" summary="Hier lernst du die Grundlagen von Datenbanken" type="library"/>
+            <a href="SQL-Syntax.md" summary="Hier lernst du, was SQL ist und wie man damit programmiert" type="data"/>
         </spotlight>
 
         <!--    Add several topics that are most important for this section.    -->
         <primary>
-            <title>Los geht's!</title>
-            <a href=""/>
-            <a href="" summary="With a custom card summary"/>
-            <a href="">Custom card title</a>
-            <a href="" summary="With a custom card summary">Custom card title</a>
+            <title>Die Grundlagen von Datenbanken</title>
+            <a href="Begriffe.md"/>
+            <a href="Arten-von-Daten.md"/>
+            <a href="Normalisierung.md"/>
+            <a href="ERDs.md"/>
         </primary>
 
         <!--    Add several topics that are less important or are relevant only for advanced/experienced users.    -->
         <secondary>
-            <title>Fortgeschrittene Themen</title>
-            <a href=""/>
-            <a href="" summary="With a custom card summary"/>
-            <a href="">Custom card title</a>
-            <a href="" summary="With a custom card summary">Custom card title</a>
+            <title>Access, SQL Server und SQL</title>
+            <a href="Access.md"/>
+            <a href="SQL-Server-Express.md"/>
+            <a href="SQL-Syntax.md" />
         </secondary>
 
         <!--    Optionally add additional cards and links to topics that are not in this section but may be relevant.    -->
         <misc>
             <links>
                 <group>
-                    <title>Other related topics as links</title>
-                    <a href=""/>
-                    <a href="" summary="With a custom card summary"/>
-                    <a href="">Custom card title</a>
-                    <a href="" summary="With a custom card summary">Custom card title</a>
+                    <title>Wichtige Ressourcen und Links</title>
+                    <a href="https://www.w3schools.com/sql/default.asp" summary="SQL Tutorial from W3Schools">W3Schools - SQL</a>
+                    <a href="https://www.programiz.com/sql" summary="SQL Tutorial from Programiz">Programiz - SQL</a>
+                    <a href="https://www.w3schools.com/sql/sql_ref_keywords.asp" summary="SQL Reference with all SQL Keywords">W3Schools - SQL Keywords</a>
+                    <a href="https://www.w3schools.com/sql/sql_ref_sqlserver.asp" summary="SQL Reference with all Functions for SQL Server">W3Schools - SQL Server Functions</a>
+                    <a href="https://www.w3schools.com/sql/sql_quickref.asp" summary="SQL Quick Reference">W3Schools - SQL Quick Reference</a>
                 </group>
             </links>
         </misc>

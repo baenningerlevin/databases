@@ -1,0 +1,3 @@
+# LEFT JOIN
+
+Start typing here...
