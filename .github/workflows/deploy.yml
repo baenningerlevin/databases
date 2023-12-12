@@ -35,6 +35,13 @@ jobs:
         - name: Install unzip
           run: sudo apt-get install unzip
 
+        - name: Find unzip path
+          run: which unzip
+          id: unzipPath
+
+        - name: Unzip artifact
+          run: ${{ steps.unzipPath.outputs.stdout }} -O UTF-8 -qq ${{ env.ALGOLIA_ARTIFACT }} -d algolia-indexes
+
         - name: Build Writerside docs using Docker
           uses: JetBrains/writerside-github-action@v4
           with:
