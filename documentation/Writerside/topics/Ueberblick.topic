@@ -49,12 +49,15 @@
         <misc>
             <links>
                 <group>
-                    <title>Wichtige Ressourcen und Links</title>
-                    <a href="https://www.w3schools.com/sql/default.asp" summary="SQL Tutorial from W3Schools">W3Schools - SQL</a>
-                    <a href="https://www.programiz.com/sql" summary="SQL Tutorial from Programiz">Programiz - SQL</a>
+                    <title>Referenzen</title>
                     <a href="https://www.w3schools.com/sql/sql_ref_keywords.asp" summary="SQL Reference with all SQL Keywords">W3Schools - SQL Keywords</a>
                     <a href="https://www.w3schools.com/sql/sql_ref_sqlserver.asp" summary="SQL Reference with all Functions for SQL Server">W3Schools - SQL Server Functions</a>
                     <a href="https://www.w3schools.com/sql/sql_quickref.asp" summary="SQL Quick Reference">W3Schools - SQL Quick Reference</a>
+                </group>
+                <group>
+                    <title>Tutorials</title>
+                    <a href="https://www.w3schools.com/sql/default.asp" summary="SQL Tutorial from W3Schools">W3Schools - SQL</a>
+                    <a href="https://www.programiz.com/sql" summary="SQL Tutorial from Programiz">Programiz - SQL</a>
                 </group>
             </links>
         </misc>

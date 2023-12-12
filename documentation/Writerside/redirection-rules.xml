@@ -18,4 +18,8 @@
         <description>Created after removal of "Andere Datentypen" from Datenbanken</description>
         <accepts>Andere-Datentypen.html</accepts>
     </rule>
+    <rule id="57d8859e">
+        <description>Created after removal of "Section Starting Page" from Datenbanken</description>
+        <accepts>Section-Starting-Page.html</accepts>
+    </rule>
 </rules>
