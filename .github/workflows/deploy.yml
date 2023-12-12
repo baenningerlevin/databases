@@ -32,6 +32,9 @@ jobs:
         - name: Checkout repository
           uses: actions/checkout@v3
 
+        - name: Install unzip
+          run: sudo apt-get install unzip
+
         - name: Build Writerside docs using Docker
           uses: JetBrains/writerside-github-action@v4
           with:
@@ -116,15 +119,15 @@ jobs:
                 name: algolia-indexes
             - name: Unzip artifact
               run: |
-                    unzip -O UTF-8 -qq ${{ env.ALGOLIA_ARTIFACT }} -d algolia-indexes
-                    env "algolia-key=${{env.ALGOLIA_KEY}}" java -jar /opt/builder/help-publication-agent.jar \
-                    update-index \
-                    --application-name ${{env.ALGOLIA_APP_NAME}} \
-                    --index-name ${{env.ALGOLIA_INDEX_NAME}} \
-                    --product ${{env.CONFIG_JSON_PRODUCT}} \
-                    --version ${{env.CONFIG_JSON_VERSION}} \
-                    --index-directory algolia-indexes/ \
-                    2>&1 | tee algolia-update-index-log.txt
+                unzip -O UTF-8 -qq ${{ env.ALGOLIA_ARTIFACT }} -d algolia-indexes
+                env "algolia-key=${{env.ALGOLIA_KEY}}" java -jar /opt/builder/help-publication-agent.jar \
+                update-index \
+                --application-name ${{env.ALGOLIA_APP_NAME}} \
+                --index-name ${{env.ALGOLIA_INDEX_NAME}} \
+                --product ${{env.CONFIG_JSON_PRODUCT}} \
+                --version ${{env.CONFIG_JSON_VERSION}} \
+                --index-directory algolia-indexes/ \
+                2>&1 | tee algolia-update-index-log.txt
                 
         env:
             ALGOLIA_APP_NAME: 659S48WQW8
