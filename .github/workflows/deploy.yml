@@ -110,6 +110,8 @@ jobs:
             image: registry.jetbrains.team/p/writerside/builder/algolia-publisher:2.0.32-2
     
         steps:
+            - name: Install sudo
+              run: apt install sudo
             - name: Install unzip
               run: sudo apt-get install unzip
             - uses: actions/checkout@v3
