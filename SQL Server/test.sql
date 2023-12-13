@@ -1,26 +1,32 @@
 CREATE DATABASE testDB;
 
--- Um nur bestimmten Code auszuführen, Code auswählen
 USE testDB;
 
-CREATE TABLE tbl_Lernende
+-- Tabelle mit direktem Primary Key
+CREATE TABLE tbl_test
 (
-    id_Lernende int IDENTITY(1,1) PRIMARY KEY,
-    Vorname varchar(50) NOT NULL,
-    Nachname varchar(50) NOT NULL,
-    Geburtsdatum date NOT NULL,
-    PLZ smallint NOT NULL,
+    id_test int NOT NULL PRIMARY KEY,
+    lastName varchar(50)
 );
 
-INSERT INTO tbl_Lernende
-    (Vorname, Nachname, Geburtsdatum, PLZ)
+INSERT INTO tbl_test (id_test, lastName) 
+VALUES 
+(1, 'Bänninger'),
+(2, 'Azizi');
+
+SELECT * FROM tbl_test;
+
+
+-- Tabelle mit zusammengesetztem Primary Key
+CREATE TABLE tbl_test2
+(
+    id_test2 int NOT NULL,
+    lastName varchar(50)
+    CONSTRAINT pk_test2 PRIMARY KEY (id_test2, lastName)
+);
+
+INSERT INTO tbl_test2 (id_test2, lastName)
 VALUES
-    ('Levin', 'Baenninger', '2007-10-28', 8370)
+(2, 'Bänninger');
 
-SELECT *
-FROM tbl_Lernende;
-
-DELETE FROM tbl_Lernende
-WHERE id_Lernende = 1;
-
-DROP TABLE tbl_Lernende;
+SELECT * FROM tbl_test2;

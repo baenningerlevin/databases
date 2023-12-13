@@ -89,7 +89,9 @@
             <toc-element topic="DROP-DB.md"/>
             <toc-element topic="BACKUP-DB.md"/>
             <toc-element topic="CREATE-TABLE.md"/>
-            <toc-element topic="DROP-TABLE.md"/>
+            <toc-element topic="DROP-TABLE.md">
+                <toc-element topic="TRUNCATE-TABLE.md"/>
+            </toc-element>
             <toc-element topic="ALTER-TABLE.md"/>
         </toc-element>
         <toc-element topic="Beschraenkungen-und-Keys.md">
