@@ -1,51 +1,49 @@
 # PRIMARY KEY
 
+<show-structure depth="2" />
+
 Mit dem `PRIMARY KEY` kann man einen Datensatz in einer Tabelle eindeutig identifzieren. Primärschlüssel müssen `UNIQUE` Werte enthalten und
 dürfen nicht `NULL` sein.
 
 Eine Tabelle kann nur **einen** Primärschlüssel haben; dieser Primärschlüssel kann jedoch aus mehreren Attributen bestehen.
 
-## Syntax
+## Beispiele
 
-```SQL
-    CREATE TABLE tbl_name (
-    id_attribute_name int NOT NULL PRIMARY KEY,
-    attribute_name [datatype] [constraints],
-    attribute_name [datatype] [constraints],
-    ...
-);
-```
+### CREATE TABLE
 
-Um die Benennung eines `PRIMARY KEY`-Constraints zu ermöglichen und um einen `PRIMARY KEY`-Constraint für mehrere Spalten zu definieren, verwendet man
-die folgende SQL-Syntax:
+#### Zufälliger Name
 
 ```SQL
     CREATE TABLE Persons (
-    id_attribute_name int NOT NULL,
-    attribute_name [datatype] [constraints],
-    attribute_name [datatype] [constraints],
-    ...
-    CONSTRAINT pk_person PRIMARY KEY (id_attribute_name, attribute_name)
-);
-```
-
-## Beispiele
-
-```SQL
-    CREATE TABLE tbl_Persons (
-    id_Person int NOT NULL PRIMARY KEY,
+    PersonID int NOT NULL PRIMARY KEY,
     LastName varchar(255) NOT NULL,
     FirstName varchar(255),
     Age int
 );
 ```
 
+#### Ausgewählter Name
+
 ```SQL
-    CREATE TABLE tbl_Persons (
-    id_Person int NOT NULL,
+    CREATE TABLE Persons (
+    PersonID int,
     LastName varchar(255) NOT NULL,
     FirstName varchar(255),
-    Age int,
-    CONSTRAINT pk_Person PRIMARY KEY (ID,LastName)
+    Age int
+    CONSTRAINT PK_Person PRIMARY KEY (id_Person)
 );
+```
+
+### ALTER TABLE
+
+```SQL
+    ALTER TABLE Persons
+    ADD CONSTRAINT PK_Person PRIMARY KEY (id_Person);
+```
+
+### DROP the PRIMARY KEY
+
+```SQL
+    ALTER TABLE Persons
+    DROP CONSTRAINT PK_Person;
 ```

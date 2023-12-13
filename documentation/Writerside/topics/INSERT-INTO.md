@@ -1,5 +1,7 @@
 # INSERT INTO
 
+<show-structure depth="2" />
+
 Das `INSERT INTO` Statement wird benutzt, um neue Datensätze in eine Tabelle einzufügen.
 
 ## Syntax

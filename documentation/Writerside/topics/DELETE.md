@@ -1,5 +1,7 @@
 # DELETE
 
+<show-structure depth="2" />
+
 Das `DELETE` Statement wird benutzt um existierende Datensätze in einer Tabelle zu löschen.
 
 ## Syntax

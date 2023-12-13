@@ -1,5 +1,7 @@
 # Aliase
 
+<show-structure depth="2" />
+
 SQL Aliase werden benutzt, um Tabellen oder Attributen temporäre Namen zu vergeben. Sie werden oft benutzt, um Attributnamen lesbarer zu machen.
 
 Sie existieren nur für die Dauer des Queries.

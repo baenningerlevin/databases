@@ -1,5 +1,7 @@
 # NOT NULL
 
+<show-structure depth="2" />
+
 Standardmässig kann ein Attribut `NULL`-Werte haben. Das `NOT-NULL` Constraint wirkt dagegen und es muss ein Wert der nicht `NULL` ist,
 eingetragen werden.
 

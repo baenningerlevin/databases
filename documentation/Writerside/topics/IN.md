@@ -1,5 +1,7 @@
 # IN
 
+<show-structure depth="2" />
+
 Der `IN` Operator erlaubt es einem mehrere Werte in einer `WHERE` Klausel zu spezifizieren. Eigentlich ist `IN` die kurze Version von mehreren
 `OR` Konditionen.
 

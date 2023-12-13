@@ -1,5 +1,7 @@
 # NOT
 
+<show-structure depth="2" />
+
 Der `NOT` Operator wird in Kombination mit anderen Operatoren gebraucht, um das **umgekehrte** Resultat zu erhalten, auch **'Negativresultat'**
 genannt.
 

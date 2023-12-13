@@ -1,5 +1,7 @@
 # ORDER BY
 
+<show-structure depth="2" />
+
 Das `ORDER BY` Keyword wird benutzt, um das Resultat in aufsteigender oder absteigender Reihenfolge zu sortieren.
 
 ## Syntax

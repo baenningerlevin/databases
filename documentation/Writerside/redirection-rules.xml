@@ -22,4 +22,8 @@
         <description>Created after removal of "Section Starting Page" from Datenbanken</description>
         <accepts>Section-Starting-Page.html</accepts>
     </rule>
+    <rule id="465e839">
+        <description>Created after removal of "CREATE INDEX" from Datenbanken</description>
+        <accepts>CREATE-INDEX.html</accepts>
+    </rule>
 </rules>

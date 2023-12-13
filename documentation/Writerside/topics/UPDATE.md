@@ -1,5 +1,7 @@
 # UPDATE
 
+<show-structure depth="2" />
+
 Das `UPDATE` Statement wird benutzt, um existierende Datensätze in einer Tabelle zu modifizieren.
 
 ## Syntax

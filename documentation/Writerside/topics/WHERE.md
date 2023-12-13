@@ -1,5 +1,7 @@
 # WHERE
 
+<show-structure depth="2" />
+
 Die `Where` Klausel wir benutzt, um Datensätze zu filtern. Es wird benutzt, um nur die Datensätze zu extrahieren, die eine spezifische Kondition
 erfüllen.
 

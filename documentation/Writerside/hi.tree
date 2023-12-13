@@ -101,7 +101,6 @@
             <toc-element topic="FOREIGN-KEY.md"/>
             <toc-element topic="CHECK.md"/>
             <toc-element topic="DEFAULT.md"/>
-            <toc-element topic="CREATE-INDEX.md"/>
         </toc-element>
 
     </toc-element>

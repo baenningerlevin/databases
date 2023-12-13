@@ -1,5 +1,7 @@
 # NULL
 
+<show-structure depth="2" />
+
 Ein Feld mit einem `NULL`-Wert ist ein Feld ohne Wert.
 
 Wenn ein Feld in einer Tabelle optional ist, ist es möglich einen neuen Datensatz zu erstellen oder zu aktualisieren, ohne einen Wert in das Feld

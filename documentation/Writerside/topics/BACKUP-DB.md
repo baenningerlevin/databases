@@ -1,5 +1,7 @@
 # BACKUP DB
 
+<show-structure depth="2" />
+
 Das `BACKUP DATABASE` Statement wird benutzt, um in SQL Server ein Full Backup einer existierenden DB zu erstellen.
 
 ## Syntax

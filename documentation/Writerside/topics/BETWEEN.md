@@ -1,5 +1,7 @@
 # BETWEEN
 
+<show-structure depth="2" />
+
 Der `BETWEEN` Operator wählt alle Werte in einem bestimmten Bereich aus. Die Werte können Zahle, Texte oder Daten sein.
 
 > Der `BETWEEN` Operator ist inklusiv, Start- und Endwerte sind inkludiert
