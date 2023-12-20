@@ -59,3 +59,14 @@ Ein Alias wird mit dem `AS` Keyword erstellt.
 
 ### Tabelle - Beispiel
 
+```SQL
+    SELECT o.OrderID, o.OrderDate, c.CustomerName
+    FROM Customers AS c, Orders AS o
+```
+
+### Attribut konkateniert
+
+```SQL
+    SELECT CustomerName, Address + ', ' + PostalCode + ' ' + City + ', ' + Country AS Address
+    FROM Customers;
+```

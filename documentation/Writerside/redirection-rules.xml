@@ -26,4 +26,8 @@
         <description>Created after removal of "CREATE INDEX" from Datenbanken</description>
         <accepts>CREATE-INDEX.html</accepts>
     </rule>
+    <rule id="7b6a8d1">
+        <description>Created after removal of "Self Join" from Datenbanken</description>
+        <accepts>Self-Join.html</accepts>
+    </rule>
 </rules>

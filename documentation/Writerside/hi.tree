@@ -82,7 +82,6 @@
             <toc-element topic="LEFT-JOIN.md"/>
             <toc-element topic="RIGHT-JOIN.md"/>
             <toc-element topic="FULL-JOIN.md"/>
-            <toc-element topic="Self-Join.md"/>
         </toc-element>
         <toc-element toc-title="Datenbank entwerfen">
             <toc-element topic="CREATE-DB.md"/>

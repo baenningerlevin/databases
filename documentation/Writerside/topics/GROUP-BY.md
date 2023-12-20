@@ -1,3 +1,3 @@
 # GROUP BY
 
-Start typing here...
+Das `GROUP BY` Statement gruppiert
